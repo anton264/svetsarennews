@@ -1,0 +1,18 @@
+{
+  "name": "svetsarennews",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate RSS 2.0 feed from BRF Svetsaren news and publish via GitHub Pages.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node scripts/generate-rss.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^2.7.0",
+    "rss": "^1.2.2"
+  }
+}
+
+
