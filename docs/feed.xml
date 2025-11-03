@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>BRF Svetsaren – Nyheter</title>
-    <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
-    <description>RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.</description>
-    <lastBuildDate>Mon, 03 Nov 2025 12:00:00 GMT</lastBuildDate>
-    <ttl>1440</ttl>
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[BRF Svetsaren – Nyheter]]></title>
+        <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
+        <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
+        <generator>svetsarennews (GitHub Actions)</generator>
+        <lastBuildDate>Mon, 03 Nov 2025 16:36:40 GMT</lastBuildDate>
+        <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 03 Nov 2025 16:36:40 GMT</pubDate>
+        <language><![CDATA[sv-SE]]></language>
+        <ttl>1440</ttl>
+    </channel>
 </rss>
-
-
