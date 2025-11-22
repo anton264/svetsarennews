@@ -55,78 +55,109 @@ function parseSwedishDate(text) {
 }
 
 function extractItems($) {
-  // Heuristic extraction: find lines that include a Swedish date and treat the text before the date as title.
-  // We scan block-level elements likely to contain the list, then split their text into logical lines.
-  const containerCandidates = [
-    'main',
-    '[role="main"]',
-    'section',
-    'article',
-    '.content',
-    '.container',
-    '.page-content',
-  ];
-
-  let textBlocks = [];
-  for (const sel of containerCandidates) {
-    $(sel).each((_, el) => {
-      const txt = $(el).text().trim();
-      if (txt && txt.toLowerCase().includes('nyheter')) {
-        textBlocks.push(txt);
-      }
-    });
-  }
-
-  if (textBlocks.length === 0) {
-    // Fallback: entire body text
-    textBlocks.push($('body').text().trim());
-  }
-
-  const monthAlternation = Object.keys(SWEDISH_MONTHS).join('|');
-  const lineRe = new RegExp(
-    `^(.+?)\s+(\\d{1,2})\\s+(${monthAlternation})\\s+(\\d{4})(?:\s|$)`,
-    'i'
-  );
-
   const items = [];
   const seen = new Set();
 
-  for (const block of textBlocks) {
-    // Split by newlines and also by bullet-like separators
-    const lines = block
-      .split(/\n+/)
-      .map((l) => l.trim())
-      .filter(Boolean);
+  // The news items are typically in a structure like:
+  // <div class="item">
+  //   <a href="...">
+  //     <div class="iteminformation">
+  //       <h3>Title</h3>
+  //       <div class="itemdate">Date</div>
+  //       <div class="itemdescription">Description</div>
+  //     </div>
+  //   </a>
+  // </div>
+  // Or sometimes the <a> is inside the h3, but based on debug output, the <a> wraps the content or is a parent.
+  // Let's look for the specific structure seen in debug output:
+  // Parent class: item
+  // Grandparent class: itemlist
 
-    for (const line of lines) {
-      const m = line.match(lineRe);
-      if (!m) continue;
-      const title = m[1].replace(/^[-•*\s]+/, '').trim();
-      const dateStr = `${m[2]} ${m[3]} ${m[4]}`;
-      const date = parseSwedishDate(dateStr);
-      if (!title || !date) continue;
+  // We'll iterate over elements that look like news items.
+  // Based on debug output, we can select by class .item or .iteminformation
 
-      const key = `${title}::${date.toISOString()}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
+  $('.item').each((_, el) => {
+    const $el = $(el);
+    const $info = $el.find('.iteminformation');
+    if ($info.length === 0) return;
 
-      // Try to find a nearby anchor for a more precise link
-      let link = SOURCE_URL + '#' + slugify(title);
-      const anchor = $(`a:contains("${title}")`).first();
-      if (anchor && anchor.attr('href')) {
-        const href = anchor.attr('href');
-        link = href.startsWith('http') ? href : new URL(href, SOURCE_URL).toString();
-      }
+    const title = $info.find('h3').text().trim();
+    const dateStr = $info.find('.itemdate').text().trim();
+    const description = $info.find('.itemdescription').text().trim();
 
-      items.push({
-        title,
-        link,
-        guid: link,
-        pubDate: date,
-        description: '',
-      });
+    // The link is usually on the parent <a> tag if the structure is <a href><div class="item">...</div></a>
+    // OR inside the item.
+    // In the debug output: 
+    // Href: /stockholm/brf/svetsaren/nyheter/nytt-kosystem-for-p-platser/
+    // HTML: <div class="iteminformation ">...</div>
+    // Parent class: item
+    // It seems the <a> tag might be the parent of .item or .item is inside <a>.
+    // Let's check if the element itself is an <a> or has an <a> parent or child.
+
+    let link = $el.find('a').attr('href');
+    if (!link) {
+      // Check if the item itself is wrapped in an anchor or is an anchor
+      if ($el.is('a')) link = $el.attr('href');
+      else link = $el.closest('a').attr('href');
     }
-  }
+
+    // If still no link, try to find it in the h3
+    if (!link) {
+      link = $info.find('h3 a').attr('href');
+    }
+
+    // Debug output showed: 
+    // Link Href: /stockholm/brf/svetsaren/nyheter/...
+    // HTML: <div class="iteminformation ">...</div>
+    // Parent class: item
+    // This implies the structure is likely: <div class="item"> <a href="..."> ... </a> </div> OR <a href...><div class="item">...</div></a>
+    // Wait, the debug script did $('a').each...
+    // And it found the link.
+    // So we can just iterate over 'a' tags that contain .iteminformation or are inside .item
+
+  });
+
+  // Let's use a more direct approach matching the debug script's findings.
+  // The debug script found links that contain '/nyheter/'.
+  // And those links contained the text and HTML.
+
+  $('a').each((_, el) => {
+    const $a = $(el);
+    const href = $a.attr('href');
+
+    // Filter for news links
+    if (!href || !href.includes('/nyheter/')) return;
+
+    // We want to find the structured content inside this link
+    const $info = $a.find('.iteminformation');
+    if ($info.length === 0) return;
+
+    const title = $info.find('h3').text().trim();
+    const dateStr = $info.find('.itemdate').text().trim();
+    let description = $info.find('.itemdescription').text().trim();
+
+    // Clean up description (remove "Läs mer" etc if present, though HSB seems clean)
+
+    if (!title || !dateStr) return;
+
+    const date = parseSwedishDate(dateStr);
+    if (!date) return;
+
+    // Resolve relative URL
+    const fullLink = href.startsWith('http') ? href : new URL(href, SOURCE_URL).toString();
+
+    const key = `${title}::${date.toISOString()}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+
+    items.push({
+      title,
+      link: fullLink,
+      guid: fullLink,
+      pubDate: date,
+      description,
+    });
+  });
 
   // Deduplicate by GUID and sort descending by date
   const byGuid = new Map();

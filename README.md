@@ -6,7 +6,7 @@ Generates an RSS 2.0 feed from `https://www.hsb.se/stockholm/brf/svetsaren/nyhet
 
 - Feed file: `docs/feed.xml`
 - Published URL (after enabling Pages on `main`/`/docs`):
-  - `https://<your-username>.github.io/<repo>/feed.xml`
+  - `https://antoneriksmo.github.io/svetsarennews/feed.xml`
 
 ## How it works
 
