@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Mon, 29 Dec 2025 03:48:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Dec 2025 03:44:13 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Dec 2025 03:48:58 GMT</pubDate>
+        <pubDate>Tue, 30 Dec 2025 03:44:13 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Julgranshämtning 2026]]></title>
+            <description><![CDATA[Järfälla kommun hämtar julgranar under vecka 5.  Sista möjligheten att lämna granen är under kvällen den 25 januari . Järfälla kommun har följande tre regler för hämtning av julgranar: Jag är...]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/julgranshamtning-2026/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/julgranshamtning-2026/</guid>
+            <pubDate>Mon, 29 Dec 2025 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Svetsarbladet Jul]]></title>
             <description><![CDATA[En del nytt och några datum för första halvan av 2026.]]></description>
