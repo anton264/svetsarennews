@@ -4,9 +4,9 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Fri, 23 Jan 2026 03:47:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 03:42:59 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Jan 2026 03:47:17 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 03:42:59 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
         <item>
