@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Fri, 06 Feb 2026 03:59:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2026 03:54:58 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 06 Feb 2026 03:59:40 GMT</pubDate>
+        <pubDate>Sat, 07 Feb 2026 03:54:58 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Boendemöte 5/2 2026]]></title>
+            <description><![CDATA[Anteckningarna från gårdagens möte med cirka 30 deltagare.]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-52-2026/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-52-2026/</guid>
+            <pubDate>Fri, 06 Feb 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Julgranshämtning 2026]]></title>
             <description><![CDATA[Järfälla kommun hämtar julgranar under vecka 5.  Sista möjligheten att lämna granen är under kvällen den 25 januari . Järfälla kommun har följande tre regler för hämtning av julgranar: Jag är...]]></description>
@@ -22,118 +29,6 @@
             <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-jul-/</link>
             <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-jul-/</guid>
             <pubDate>Tue, 16 Dec 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Boendemöte tisdag 18 november]]></title>
-            <description><![CDATA[Välkomna till lokalen bredvid port 19 på tisdag den 18 november klockan 19.00.
-
-Information från styrelsen  och samtal om det ni undrar över..
-
-Välkomna!]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-tisdag-18-november/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-tisdag-18-november/</guid>
-            <pubDate>Sun, 02 Nov 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Svetsarbladet höst]]></title>
-            <description><![CDATA[Höstens utgåva finns uppsatt i portarna och nu även på hemsidan.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-host-/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-host-/</guid>
-            <pubDate>Tue, 14 Oct 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Datum för hissarnas renovering]]></title>
-            <description><![CDATA[Nu har vi fått datumen för de kvarvarande hissarna!]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/datum-for-hissarnas-renovering/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/datum-for-hissarnas-renovering/</guid>
-            <pubDate>Mon, 18 Aug 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Port 7 ska få sin nya hiss i höst]]></title>
-            <description><![CDATA[När de tre hissarna som renoveras från och med 4 augusti är klara så kommer även port 7's hiss att moderniseras. 
-Exakt datum vet vi inte idag 14/7, men det borde bli i slutet  av september. Nytt ...]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/port-7-ska-fa-sin-nya-hiss-i-host/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/port-7-ska-fa-sin-nya-hiss-i-host/</guid>
-            <pubDate>Mon, 14 Jul 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Svetsarbladet sommar 2025]]></title>
-            <description><![CDATA[Dokumentet finns lite längre ner på sidan.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-sommar-2025/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-sommar-2025/</guid>
-            <pubDate>Mon, 07 Jul 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Nytt kösystem för P-platser]]></title>
-            <description><![CDATA[I början av juli kommer HSB att ta hand om köer till p-platser och garage.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-kosystem-for-p-platser/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-kosystem-for-p-platser/</guid>
-            <pubDate>Thu, 12 Jun 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Årsstämman 2025]]></title>
-            <description><![CDATA[Protokollet finns upplagt på Brf Svetsaren. 
-Direktlänk dit:
-hsb.se/stockholm/brf/svetsaren/om-foreningen/arsredovisning-och-annan-information/]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/arsstamman-2025/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/arsstamman-2025/</guid>
-            <pubDate>Mon, 09 Jun 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Valberedningens berättelse]]></title>
-            <description><![CDATA[En av punkterna på dagordningen på vår årsstämma är valberedningens förslag.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/valberedningens-berattelse/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/valberedningens-berattelse/</guid>
-            <pubDate>Fri, 02 May 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Minnesanteckningar boendemöte 2025-04-22]]></title>
-            <description><![CDATA[Tack alla som deltog på boendeträffen! Nedan finner du anteckningar från mötet.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/minnesanteckningar-boendemote-2025-04-22/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/minnesanteckningar-boendemote-2025-04-22/</guid>
-            <pubDate>Fri, 25 Apr 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Stämman 19 maj]]></title>
-            <description><![CDATA[I år kommer HSB normalstadgar 2023 att presenteras och röstas om på stämman. Det är alltid två stämmor efter varandra som röstar om införandet av nya stadgar.
-Vi kan även prata om dem på boendem...]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/stamman-19-maj-/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/stamman-19-maj-/</guid>
-            <pubDate>Fri, 18 Apr 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Svetsarbladet april]]></title>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-april/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarbladet-april/</guid>
-            <pubDate>Wed, 09 Apr 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Boendemöte tisdag 22 april klockan 19]]></title>
-            <description><![CDATA[Vi ses i lokalen bredvid port 19]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-tisdag-22-april-klockan-19/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-tisdag-22-april-klockan-19/</guid>
-            <pubDate>Tue, 08 Apr 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hissrenoveringarna]]></title>
-            <description><![CDATA[Brf Svetsaren har ingått avtal med Stockholms Hiss Service om modernisering och uppgradering av alla våra hissar under 2025 och 2026.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/hissrenoveringarna/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/hissrenoveringarna/</guid>
-            <pubDate>Thu, 20 Feb 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Nytt Svetsarblad Februari]]></title>
-            <description><![CDATA[Ta del av senaste medlemsinformationen nedan.]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-svetsarblad-februari/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-svetsarblad-februari/</guid>
-            <pubDate>Thu, 13 Feb 2025 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Nytt telefonnummer uthyrning lokaler]]></title>
-            <description><![CDATA[Bokning av lokaler]]></description>
-            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-telefonnummer-uthyrning-lokaler/</link>
-            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/nytt-telefonnummer-uthyrning-lokaler/</guid>
-            <pubDate>Fri, 24 Jan 2025 12:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
