@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 04:18:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Apr 2026 04:09:05 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Apr 2026 04:18:08 GMT</pubDate>
+        <pubDate>Sat, 25 Apr 2026 04:09:05 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Boendemöte 23/4 2026]]></title>
+            <description><![CDATA[Det här mötet i bostadsrättsföreningen var av det mer informella slaget – ett "agendalöst" möte där fokus låg på medlemmarnas frågor snarare än styrelsens punkter. Här är en sammanfattning av de vi...]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-234-2026/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/boendemote-234-2026/</guid>
+            <pubDate>Fri, 24 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Svetsarbladet Mars]]></title>
             <description><![CDATA[Våren är äntligen på väg! Ljuset återvänder, snön smälter undan och snart sopas gatorna rena från vinterns grus. I föreningen har året startat i högt tempo - styrelsen har redan hunnit med ett...]]></description>
