@@ -169,17 +169,34 @@ function extractItems($) {
   return unique.slice(0, 50);
 }
 
-async function main() {
-  const res = await fetch(SOURCE_URL, {
-    headers: {
-      'user-agent': 'svetsarennews-bot/1.0 (+github actions)'
-    },
-    timeout: 20000,
-  });
-  if (!res.ok) {
-    throw new Error(`Failed to fetch source: ${res.status} ${res.statusText}`);
+async function fetchWithRetry(url, options, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, options);
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      }
+      const body = await res.text();
+      return body;
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.warn(`Attempt ${attempt}/${retries} failed: ${err.message}`);
+      if (attempt === retries) throw err;
+      // Exponential back-off: 2s, 4s
+      await new Promise((r) => setTimeout(r, 2000 * attempt));
+    }
   }
-  const html = await res.text();
+}
+
+async function main() {
+  const html = await fetchWithRetry(SOURCE_URL, {
+    headers: {
+      'User-Agent': 'svetsarennews-bot/1.0 (+github actions)',
+      'Accept': 'text/html,application/xhtml+xml,*/*',
+    },
+    timeout: 30000,
+    compress: false,
+  });
   const $ = cheerio.load(html);
 
   const items = extractItems($);
