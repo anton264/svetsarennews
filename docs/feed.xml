@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Sat, 19 Sep 2026 07:59:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2026 08:31:30 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 19 Sep 2026 07:59:27 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 08:31:30 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Svetsarens månadsblad september -26]]></title>
+            <description><![CDATA[Månadsbrev – 19 september 2026 Hösten är igång och styrelsen har haft sitt första möte efter sommaren. Vi vill bli bättre på att nå ut med information och därför testar vi nu ett månadsbrev som sät...]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-september--26/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-september--26/</guid>
+            <pubDate>Sat, 19 Sep 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Svetsarbladet Sommar]]></title>
             <description><![CDATA[Flaggan ersätts av vimpel  Vi har under en tid sökt efter någon som vill ta över ansvaret att sköta vår flaggning vid flaggdagar. Eftersom ingen har haft möjlighet att åta sig uppdraget, har...]]></description>
