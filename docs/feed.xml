@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Wed, 07 Oct 2026 10:10:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 10:29:04 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Oct 2026 10:10:59 GMT</pubDate>
+        <pubDate>Thu, 08 Oct 2026 10:29:04 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[In english - Information regarding pests]]></title>
+            <description><![CDATA[Important information regarding pests Pests of various kinds are unfortunately becoming increasingly common. Anyone can be affected, and if you have pests in your home, it does not mean you have do...]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/information-om-skadedjur---information-regarding-pests/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/information-om-skadedjur---information-regarding-pests/</guid>
+            <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Svetsarens månadsblad september -26]]></title>
             <description><![CDATA[Månadsbrev – 19 september 2026 Hösten är igång och styrelsen har haft sitt första möte efter sommaren. Vi vill bli bättre på att nå ut med information och därför testar vi nu ett månadsbrev som sät...]]></description>
