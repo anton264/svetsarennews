@@ -4,11 +4,21 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Wed, 21 Oct 2026 08:29:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 08:31:57 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 21 Oct 2026 08:29:26 GMT</pubDate>
+        <pubDate>Thu, 22 Oct 2026 08:31:57 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Svetsarens månadsblad oktober -26]]></title>
+            <description><![CDATA[Till alla boende i Svetsarens förening,
+
+
+Nyheter och uppdaterade nyheter från förra numret.]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-oktober--26/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-oktober--26/</guid>
+            <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Driftstörning Bredband]]></title>
             <description><![CDATA[Torsdag 15 oktober mellan 8 och 12 så kan det förekomma driftstopp.]]></description>
