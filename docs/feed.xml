@@ -4,11 +4,18 @@
         <description><![CDATA[RSS 2.0-flöde genererat från HSB BRF Svetsarens nyhetssida.]]></description>
         <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/</link>
         <generator>svetsarennews (GitHub Actions)</generator>
-        <lastBuildDate>Fri, 27 Nov 2026 12:07:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Nov 2026 11:38:51 GMT</lastBuildDate>
         <atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 27 Nov 2026 12:07:16 GMT</pubDate>
+        <pubDate>Sat, 28 Nov 2026 11:38:51 GMT</pubDate>
         <language><![CDATA[sv-SE]]></language>
         <ttl>1440</ttl>
+        <item>
+            <title><![CDATA[Månadsbrev – November/December 2026]]></title>
+            <description><![CDATA[Till oss alla som bor i Svetsaren så kommer här senaste nytt.]]></description>
+            <link>https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-26-november/</link>
+            <guid isPermaLink="false">https://www.hsb.se/stockholm/brf/svetsaren/nyheter/svetsarens-manadsblad-26-november/</guid>
+            <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Provtryckning av stigarledningar 23–24 november]]></title>
             <description><![CDATA[Måndag 23 november och tisdag 24 november kommer brandskyddsföretaget Dafo att provtrycka föreningens stigarledningar. Arbetet är en del av det regelbundna brandskyddsarbetet och görs för att säker...]]></description>
